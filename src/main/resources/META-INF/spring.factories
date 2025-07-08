@@ -1,3 +1,5 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
 org.mengq.autoconfiguration.TrieWrapperConfig,\
-org.mengq.autoconfiguration.WordMatcherConfig
+org.mengq.autoconfiguration.WordMatcherConfig,\
+org.mengq.autoconfiguration.ArgumentResolverConfig,\
+org.mengq.autoconfiguration.WordComplementerConfig

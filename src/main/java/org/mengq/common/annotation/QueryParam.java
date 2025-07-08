@@ -1,15 +1,15 @@
-package org.mengq.common;
+package org.mengq.common.annotation;
 
 import java.lang.annotation.*;
 
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.TYPE)
+@Target(ElementType.PARAMETER)
+@Inherited
 public @interface QueryParam {
-
     String key();
 
-    String value();
-
     boolean required() default true;
+
+    String defaultVal() default "";
 }
